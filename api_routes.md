@@ -34,8 +34,30 @@ __Body (Student as JSON):__
 ## Retrieve All Teachers
 GET		/api/teachers
 
-## Retrieve One Student
+
+HTTP 200 OK
+
+{
+"table": "teachers",
+"columns"[{
+	"name": 
+	"id": 
+	"create_time":
+	"age":
+}]
+}
+
+
+## Retrieve One Teacher
 GET		/api/teachers/?id=teacher_id
+
+HTTP 200 OK
+{
+	"name":
+	"id":
+	"create_time":
+	"age"	
+}
 
 ## Create A Teacher
 POST 	/api/teachers
@@ -43,7 +65,7 @@ __Body (Teacher as JSON):__
 ```
  {
     "id": null,
-    "create_time": null
+    "create_time": null,
     "name": "Master Splinter",
     "age": 100
  }
