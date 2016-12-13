@@ -29,3 +29,32 @@ __Body (Student as JSON):__
     "age": 240
  }
 ```
+#Teachers
+
+## Retrieve All Teachers
+GET		/api/teachers
+
+## Retrieve One Student
+GET		/api/teachers/?id=teacher_id
+
+## Create A Teacher
+POST 	/api/teachers
+__Body (Teacher as JSON):__
+```
+ {
+    "id": null,
+    "create_time": null
+    "name": "Master Splinter",
+    "age": 100
+ }
+```
+##Update A Teacher
+POST 	/api/teachers
+__Body (Teacher as JSON):__
+```
+ {
+    "id": 1,
+    "name": "Master Splinter",
+    "age": 101
+ }
+```
