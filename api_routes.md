@@ -33,10 +33,8 @@ __Body (Student as JSON):__
 
 ## Retrieve All Teachers
 GET		/api/teachers
-
-
+```
 HTTP 200 OK
-
 {
 "table": "teachers",
 "columns"[{
@@ -46,11 +44,11 @@ HTTP 200 OK
 	"age":
 }]
 }
-
+```
 
 ## Retrieve One Teacher
 GET		/api/teachers/?id=teacher_id
-
+```
 HTTP 200 OK
 {
 	"name":
@@ -58,6 +56,7 @@ HTTP 200 OK
 	"create_time":
 	"age"	
 }
+```
 
 ## Create A Teacher
 POST 	/api/teachers
