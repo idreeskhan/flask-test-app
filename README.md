@@ -34,10 +34,10 @@ python app.py
  - Connect API routes to _sqlite_ database using `db.py`
 
 ### My Tasks
- - Initial database setup in `db_setup.py`
- - _Flask_ API route example
- - API spec example in `api_routes.md`
- - Generalized insert code
+ - ~~Initial database setup in `db_setup.py` file~~
+ - ~~_Flask_ API route example~~
+ - ~~API spec example in `api_routes.md` for Student~~
+ - Generalized ~~insert code~~
  - Generalized delete code
  - Basic HTML and JS webpage using routes provided in `app.py`
  
